@@ -433,6 +433,7 @@ def setup() {
 			OPENJ9_BRANCH_OPTION = "--openj9_branch ${OPENJ9_BRANCH}"
 			TKG_REPO_OPTION = "--tkg_repo ${TKG_REPO}"
 			TKG_BRANCH_OPTION = "--tkg_branch ${TKG_BRANCH}"
+			echo "tkg_branch_option : ${TKG_BRANCH_OPTION}"
 		}
 		CLONE_OPENJ9_OPTION = (params.CLONE_OPENJ9) ? "--clone_openj9 ${params.CLONE_OPENJ9}" : ""
 		OPENJ9_SHA_OPTION = (params.OPENJ9_SHA) ? "--openj9_sha ${params.OPENJ9_SHA}" : ""
